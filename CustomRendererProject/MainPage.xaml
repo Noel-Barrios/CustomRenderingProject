@@ -1,7 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CustomRendererProject" x:Class="CustomRendererProject.MainPage">
-    <StackLayout>
+    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        
+        <!--<Entry Margin="20" Text="Standard Entry"></Entry>-->
+        <Button Margin="20" Text="Standard Button" FontSize="30" CornerRadius="20" BorderWidth="3"></Button>
+        
+        <local:RoundedButton Margin="20" Text="Custom Button"  FontSize="30" />  
+        
+<!--        <local:RoundedButton Text="I am a rounded button" Margin="20" FontSize="30"></local:RoundedButton>
+-->    
     </StackLayout>
 </ContentPage>
