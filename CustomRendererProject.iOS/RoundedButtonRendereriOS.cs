@@ -21,6 +21,7 @@ namespace CustomRendererProject.iOS
                 Control.Layer.BorderColor = Color.DarkOliveGreen.ToCGColor();
                 Control.Layer.BackgroundColor = Color.LightGray.ToCGColor();
 
+
                 //Control.LeftView = new UIKit.UIView(new CGRect(0, 0, 10, 0));
                 //Control.LeftViewMode = UIKit.UITextFieldViewMode.Always;
             }
